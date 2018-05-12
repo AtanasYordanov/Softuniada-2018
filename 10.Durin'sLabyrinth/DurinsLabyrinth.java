@@ -31,7 +31,6 @@ public class DurinsLabyrinth {
                 filteredArtPoints.add(vertex);
             }
         }
-        articulationPoints = new HashSet<>();
         Set<Integer> unavoidableRooms = new HashSet<>();
         for (Integer artPoint : filteredArtPoints) {
             if (findPath(artPoint) == null) {
