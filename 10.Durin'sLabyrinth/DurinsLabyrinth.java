@@ -38,6 +38,10 @@ public class DurinsLabyrinth {
                 unavoidableRooms.add(artPoint);
             }
         }
+        printResult(path, unavoidableRooms);
+    }
+
+    private static void printResult(List<Integer> path, Set<Integer> unavoidableRooms) {
         StringBuilder sb = new StringBuilder();
         long sum = 0;
         for (Integer child : path) {
