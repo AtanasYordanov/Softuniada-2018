@@ -46,8 +46,7 @@ public class Logistics {
     }
 
     private static void addUnsuccessfulDeliveries() {
-        int count;
-        count = 0;
+        int count = 0;
         for (int i = packages.size() - 1; i >= 0; i--) {
             if (count >= crashDays.size()) {
                 break;
