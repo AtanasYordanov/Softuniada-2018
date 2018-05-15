@@ -22,9 +22,9 @@ public class CircumscribedCircle {
         for (int i = 0; i < n; i++) {
             readInput(reader);
             boolean isCircumscribed = checkIfCircumscribed();
-            boolean IsInside = isCenterInside();
+            boolean isInside = isCenterInside();
             System.out.print(isCircumscribed ? "The circle is circumscribed " : "The circle is not circumscribed ");
-            System.out.println(IsInside ? "and the center is inside." : "and the center is outside.");
+            System.out.println(isInside ? "and the center is inside." : "and the center is outside.");
         }
     }
 
