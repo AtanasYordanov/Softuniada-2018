@@ -110,15 +110,15 @@ public class Logistics {
             this.deadline = deadline;
         }
 
-        public int getIndex() {
+        int getIndex() {
             return index;
         }
 
-        public int getPrice() {
+        int getPrice() {
             return price;
         }
 
-        public int getDeadline() {
+        int getDeadline() {
             return deadline;
         }
 

@@ -13,8 +13,7 @@ public class Asteroids {
 
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        String input;
-        while (!"end".equals(input = reader.readLine())) {
+        for (String input = reader.readLine(); !input.equals("end"); input = reader.readLine()) {
             String[] tokens = input.split("x");
             int rows = Integer.parseInt(tokens[0]);
             int cols = Integer.parseInt(tokens[1]);
